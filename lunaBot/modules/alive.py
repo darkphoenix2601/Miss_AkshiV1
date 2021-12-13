@@ -3,7 +3,7 @@ import re, os
 from lunaBot.events import register
 from lunaBot import telethn as tbot
 from lunaBot import telethn as tgbot
-PHOTO = "https://telegra.ph/file/2cc96af4c1a40f44260cd.mp4*
+PHOTO = "https://telegra.ph/file/2cc96af4c1a40f44260cd.mp4"
 @register(pattern=("/alive"))
 async def awake(event):
  Miss_Akshi = event.sender.first_name
