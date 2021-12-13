@@ -72,11 +72,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/0029f6059520da3a9e383.jpg"
+Tanjirou_IMG = "https://telegra.ph/file/5b872ba35679471af808f.jpg"
 
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 {}, I am AKSHI🥀🍃[☘️](https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg)
+**Hey**🤞 {}, I am Tanjirou Kamado🔥 [🌞](https://telegra.ph/file/5b872ba35679471af808f.jpg)
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
@@ -85,17 +85,17 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Miss_AkshiV1_Bot?startgroup=true"),
+            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸 ➕", url="t.me/Tanji_kamado_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝘔𝘪𝘴𝘴 𝘈𝘬𝘴𝘩𝘪 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"),
+        InlineKeyboardButton(text="Tanjirou Kamado Logs ⭐", url=f"https://t.me/Tanji_Logs"),
     ],
     [
         InlineKeyboardButton(
-            text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Miss_AkshiV1_Updates"
+            text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Tanjirou_Updates"
         ),
         InlineKeyboardButton(
-            text="𝘚𝘶𝘱𝘱𝘰𝘳𝘵😍", url=f"https://t.me/Miss_AkshiV1_Support"
+            text="𝘚𝘶𝘱𝘱𝘰𝘳𝘵😍", url=f"https://t.me/Tanji_Kamado_Support"
         ),
     ],
     [
@@ -111,7 +111,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @akshi_s_ashu1 \
+ You can support the project via [Paypal](#) or by contacting @Tanji_kamado_bot \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at."""
 
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            LUNA_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            Tanjirou_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -450,7 +450,7 @@ def luna_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="luna_basichelp")]]
             ),
         )
-    elif query.data == "Miss_AkshiV1_Support":
+    elif query.data == "Tanji_Kamado_Support":
         query.message.edit_text(
             text=f"──「 Admin CMD 」──\n"
             f"\n/player - show the music playing status"
@@ -532,7 +532,7 @@ def luna_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="luna_aselole")]]
+                [[InlineKeyboardButton(text="Back", callback_data="luna_selole")]]
             ),
         )
 
@@ -579,8 +579,8 @@ def luna_about_callback(update, context):
 
     elif query.data == "luna_angjay":
         query.message.edit_text(
-            text=f"Luna is a powerful bot for managing groups with additional features.\n"
-              f"\nLuna's Licensed Under The GNU (General Public License v3.0)\n"
+            text=f"Tanjirou is a powerful bot for managing groups with additional features.\n"
+              f"\nTanjirou's Licensed Under The GNU (General Public License v3.0)\n"
               f"\nIf you have any question about Luna,"
               f"\nreach us at Support Chat.",
             parse_mode=ParseMode.MARKDOWN,
@@ -589,7 +589,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/lunaXresso"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/Tanji_Kamado_Support"),
                   ]
                 ]
             ),
@@ -854,7 +854,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1963422158 and DONATION_LINK:
+        if OWNER_ID != 2126069789 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
