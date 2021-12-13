@@ -72,11 +72,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/0029f6059520da3a9e383.jpg"
+LUNA_IMG = "https://telegra.ph/file/5b872ba35679471af808f.jpg"
 
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 {}, I am AKSHI🥀🍃[☘️](https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg)
+**Hey**🤞 {}, I am Tanjirou Kamado🥀🍃[☘️](https://telegra.ph/file/5b872ba35679471af808f.jpg)
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
@@ -85,10 +85,10 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Miss_AkshiV1_Bot?startgroup=true"),
+            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Bot_bot_tanji_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝘔𝘪𝘴𝘴 𝘈𝘬𝘴𝘩𝘪 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"),
+        InlineKeyboardButton(text="Tanjirou Kamado𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"),
     ],
     [
         InlineKeyboardButton(
@@ -111,7 +111,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @akshi_s_ashu1 \
+ You can support the project via [Paypal](#) or by contacting @@Lynncept77 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at."""
 
