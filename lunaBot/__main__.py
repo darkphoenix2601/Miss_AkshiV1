@@ -76,7 +76,7 @@ LUNA_IMG = "https://telegra.ph/file/5b872ba35679471af808f.jpg"
 
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 {}, I am Tanjirou Kamado🥀🍃[☘️](https://telegra.ph/file/5b872ba35679471af808f.jpg)
+**Hey**🤞 {}, I am Tanjirou Kamado🔥 [🌞](https://telegra.ph/file/5b872ba35679471af808f.jpg)
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
@@ -85,17 +85,17 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Bot_bot_tanji_bot?startgroup=true"),
+            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸 ➕", url="t.me/Bot_bot_tanji_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Tanjirou Kamado𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"),
+        InlineKeyboardButton(text="Tanjirou Kamado Logs ⭐", url=f"https://t.me/Tanji_Logs"),
     ],
     [
         InlineKeyboardButton(
-            text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Miss_AkshiV1_Updates"
+            text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Tanjirou_Updates"
         ),
         InlineKeyboardButton(
-            text="𝘚𝘶𝘱𝘱𝘰𝘳𝘵😍", url=f"https://t.me/Miss_AkshiV1_Support"
+            text="𝘚𝘶𝘱𝘱𝘰𝘳𝘵😍", url=f"https://t.me/Tanji_Kamado_Support"
         ),
     ],
     [
