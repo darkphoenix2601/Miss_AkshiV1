@@ -85,7 +85,7 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸 ➕", url="t.me/Bot_bot_tanji_bot?startgroup=true"),
+            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸 ➕", url="t.me/Tanji_kamado_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Tanjirou Kamado Logs ⭐", url=f"https://t.me/Tanji_Logs"),
