@@ -39,7 +39,7 @@ async def phone(event):
         return
     information = event.pattern_match.group(1)
     number = information
-    key = "0164a764a4975e1451b3b54e9f61ea4f"
+    key = "8957b7e05e4ebdaad10ca576ed37627d"
     api = (
         "http://apilayer.net/api/validate?access_key="
         + key
