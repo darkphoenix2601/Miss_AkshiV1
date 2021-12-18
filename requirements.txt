@@ -21,6 +21,7 @@ nltk
 psutil
 aiohttp
 Pillow
+selenium
 CurrencyConverter
 googletrans
 jikanpy
