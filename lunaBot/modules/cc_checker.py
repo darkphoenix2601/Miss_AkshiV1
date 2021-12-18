@@ -3,7 +3,7 @@ import datetime
 
 from telethon.tl import functions, types
 
-from lunaBot.services.events import register
+from lunaBot.events import register
 from lunaBot.services.telethon import tbot
 from lunaBot.services.telethonuserbot import ubot
 
