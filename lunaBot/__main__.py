@@ -3,6 +3,7 @@ import time
 import re
 from sys import argv
 from typing import Optional
+from platform import python_version as memek
 
 from lunaBot import (
     ALLOW_EXCL,
