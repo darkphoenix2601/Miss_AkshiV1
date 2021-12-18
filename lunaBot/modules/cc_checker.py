@@ -5,8 +5,7 @@ from telethon.tl import functions, types
 
 from lunaBot.events import register
 from lunaBot import telethn as tbot
-from lunaBot.utils import telethonuserbot 
-from telethonuserbot import ubot
+from lunaBot import ubot2 as ubot
 
 
 async def is_register_admin(chat, user):
