@@ -73,4 +73,4 @@ You get any mobile number details via using this amazing function!!
 eg; /phone +91**********
 """
 
-__mod_name__ = "Phone📱"
+__mod_name__ = "Phone"
