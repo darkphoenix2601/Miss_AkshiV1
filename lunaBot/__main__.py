@@ -77,7 +77,7 @@ LUNA_IMG = "https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg"
 
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 **{message.from_user.first_name}** \n\n __ I am AKSHI🥀🍃[☘️](https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg)
+**Hey**🤞 **{message.from_user.first_name }**\n\n __ I am AKSHI🥀🍃[☘️](https://telegra.ph/file/ecb9b93a96b0b1a0c4c1b.jpg)
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
