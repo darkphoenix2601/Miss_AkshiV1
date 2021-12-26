@@ -82,20 +82,15 @@ PM_START_TEXT = """
 `For More Information Use the Button Below or Send` /help 
 ╰──────────────
 """
-
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝘈𝘥𝘥 𝘮𝘦 𝘯𝘰𝘸➕", url="t.me/Miss_AkshiV1_Bot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="𝙳𝚎𝚟𝚜👨‍💻", url=f"https://t.me/Miss_Akshi_Devs
+            text="𝙳𝚎𝚟𝚜👨‍💻", url=f"https://t.me/Miss_Akshi_Devs"
         ),
         InlineKeyboardButton(
             text="𝘔𝘪𝘴𝘴 𝘈𝘬𝘴𝘩𝘪 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"
         ),
-    ],
+    ]
     [
         InlineKeyboardButton(
             text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Miss_AkshiV1_Updates"
