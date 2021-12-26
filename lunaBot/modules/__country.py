@@ -113,7 +113,7 @@ Gathered By luna.</b>
     
     await event.delete()
 
-__mod_name__ = "Country🌐"
+__mod_name__ = "Country"
 
 __help__ = """
  I will give information about a country
