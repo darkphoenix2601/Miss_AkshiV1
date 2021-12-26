@@ -89,4 +89,4 @@ sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 """
 
-__mod_name__ = "ɢ-ᴛʀᴀɴꜱ✍"
+__mod_name__ = "G-trans"
