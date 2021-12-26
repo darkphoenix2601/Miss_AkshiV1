@@ -451,4 +451,4 @@ __help__ = """
 YOU CAN MAKE ANY MSG INTO A STICKER OR QOUTE
 """
 
-__mod_name__ = "Qoutly 💭"
+__mod_name__ = "Qoutly"
