@@ -41,7 +41,7 @@ async def _(event):
     )
 
     
-__mod_name__ = "Cʀɪᴄᴋᴇᴛ🏏"
+__mod_name__ = "Cʀɪᴄᴋᴇᴛ"
 
 __help__ = """
 *live cricket score*
