@@ -7,7 +7,7 @@ from telegram.inline.inlinekeyboardbutton import InlineKeyboardButton
 from telegram.inline.inlinekeyboardmarkup import InlineKeyboardMarkup
 
 from lunaBot import DRAGONS, DEV_USERS, dispatcher
-from lunaBot.modules.helper_funcs.decorators import emikocallback
+from lunaBot.modules.helper_funcs.decorators import LUNACALLBACK
 
 
 class AdminPerms(Enum):
