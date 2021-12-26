@@ -64,7 +64,7 @@ async def _(event):
 
 
 
-__mod_name__ = "Game🎲"
+__mod_name__ = "Game"
 __help__ = """
  *Play Game With Emojis:*
   - /dice or /dice 1 to 6 any value
