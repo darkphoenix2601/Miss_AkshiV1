@@ -90,7 +90,7 @@ buttons = [
         InlineKeyboardButton(
             text="𝘔𝘪𝘴𝘴 𝘈𝘬𝘴𝘩𝘪 𝘭𝘰𝘨𝘴❤️", url=f"https://t.me/Miss_AkshiV1_logs"
         ),
-    ]
+    ],
     [
         InlineKeyboardButton(
             text="𝘜𝘱𝘥𝘢𝘵𝘦𝘴🤞", url=f"https://t.me/Miss_AkshiV1_Updates"
