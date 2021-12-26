@@ -14,7 +14,7 @@ async def handwriting(_, message):
     await message.reply_photo(hand, caption = "Made by @Miss_AkshiV1_Bot")
 
 
-__mod_name__ = "HandWrite📝✍"
+__mod_name__ = "HandWrite"
 __help__ = """
 ❍ /write `[text / reply to text]`
 """
