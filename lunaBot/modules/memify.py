@@ -1,13 +1,13 @@
 from PIL import Image, ImageFont, ImageDraw
 import textwrap
 import os
-from LunaBot.events import register
-from LunaBot import (
+from lunaBot.events import register
+from lunaBot import (
     LOGGER,
     TEMP_DOWNLOAD_DIRECTORY
     )
 
-from LunaBot import telethn as bot
+from lunaBot import telethn as bot
 
 
 @register(pattern="^/mmf ?(.*)")
@@ -31,8 +31,6 @@ async def handler(event):
     await msg.delete()
     os.remove(meme)
 
-# Taken from https://github.com/UsergeTeam/Userge-Plugins/blob/master/plugins/memify.py#L64
-# Maybe replyed to suit the needs of this module
 
 
 async def drawText(image_path, text):
