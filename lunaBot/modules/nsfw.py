@@ -814,4 +814,4 @@ __handlers__ = [
 
 
 
-__mod_name__ = "ɴsғᴡ"
+__mod_name__ = "NSFW"
